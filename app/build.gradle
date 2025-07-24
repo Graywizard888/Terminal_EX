@@ -24,7 +24,7 @@ android {
         minSdkVersion project.properties.minSdkVersion.toInteger()
         targetSdkVersion project.properties.targetSdkVersion.toInteger()
         versionCode 1020 // Always keep the same versionCode as Termux Upstream to allow users to swap between termux installations.
-        versionName "1.0"
+        versionName "1.0.0"
 
         if (appVersionName) versionName = appVersionName
         validateVersionName(versionName)
