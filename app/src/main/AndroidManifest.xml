@@ -42,6 +42,7 @@
 
     <application
         android:name=".app.TermuxApplication"
+        android:exported="true"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:banner="@drawable/banner"
