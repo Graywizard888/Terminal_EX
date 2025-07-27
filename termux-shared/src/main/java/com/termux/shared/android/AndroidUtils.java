@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.os.Build;
+import android.system.Os;
+import android.system.OsConstants;
 import androidx.annotation.NonNull;
 import com.google.common.base.Joiner;
 import com.termux.shared.R;
