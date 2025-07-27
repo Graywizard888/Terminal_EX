@@ -140,7 +140,7 @@ public class AndroidUtils {
         appendPropertyToMarkdown(markdownString, "HARDWARE", Build.HARDWARE);
         appendPropertyToMarkdown(markdownString, "DEVICE", Build.DEVICE);
         appendPropertyToMarkdown(markdownString, "SUPPORTED_ABIS", Joiner.on(", ").skipNulls().join(Build.SUPPORTED_ABIS));
-       appendPropertyToMarkdown(markdownString, "SUPPORTED_32_BIT_ABIS", Joiner.on(", ").skipNulls().join(Build.SUPPORTED_32_BIT_ABIS));
+        appendPropertyToMarkdown(markdownString, "SUPPORTED_32_BIT_ABIS", Joiner.on(", ").skipNulls().join(Build.SUPPORTED_32_BIT_ABIS));
         appendPropertyToMarkdown(markdownString, "SUPPORTED_64_BIT_ABIS", Joiner.on(", ").skipNulls().join(Build.SUPPORTED_64_BIT_ABIS));
 
         // If on Android >= 15
