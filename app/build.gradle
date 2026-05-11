@@ -53,6 +53,10 @@ android {
             }
         }
     }
+    
+    buildFeatures {
+        buildConfig true
+    }
 
     signingConfigs {
         debug {
